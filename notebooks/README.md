@@ -48,4 +48,17 @@ To ensure robust and unbiased analysis, the data cleaning process will involve:
 - Scale data to range (-1, 1).
 - Build an LSTM model using TensorFlow or PyTorch.
 
+# Task-3: Model Serving API
+
+This project implements a REST API to serve a trained machine-learning model for real-time predictions. The API receives input data, preprocesses it, and returns predictions based on the loaded model.
+
+## Framework
+The API is built using [FastAPI](https://fastapi.tiangolo.com/), a modern, fast (high-performance) web framework for building APIs with Python 3.7+.
+
+## Prerequisites
+- Python 3.7 or later
+- The trained machine-learning model
+- FastAPI and Uvicorn for serving the API
+
+
 
