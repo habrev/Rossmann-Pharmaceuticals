@@ -19,3 +19,33 @@ To ensure robust and unbiased analysis, the data cleaning process will involve:
 2. **Handling Missing Data**:
    - Detect missing values across all features.
    - Use techniques such as imputation (mean, median, mode, or advanced methods) or deletion, depending on the context and feature importance.
+
+# Task 2 - Prediction of store sales
+
+## Sub-Tasks
+
+### 2.1 Preprocessing
+- Convert non-numeric columns to numeric.
+- Handle NaN values.
+- Generate new features
+
+### 2.2 Building Models with sklearn Pipelines
+- Use tree-based regression algorithms (e.g., `RandomForestRegressor`).
+- Implement pipelines for modularity and reproducibility.
+
+### 2.3 Choose a Loss Function
+- Select an appropriate loss function and justify the choice.
+
+### 2.4 Post Prediction Analysis
+- Explore feature importance.
+- Estimate confidence intervals for predictions.
+
+### 2.5 Serialize Models
+- Save models with a timestamped filename.
+
+### 2.6 Building Models with Deep Learning
+- Prepare time series data (stationary, autocorrelation, supervised format).
+- Scale data to range (-1, 1).
+- Build an LSTM model using TensorFlow or PyTorch.
+
+
